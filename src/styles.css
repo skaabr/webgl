@@ -1,0 +1,11 @@
+html, body, #root { height: 100%; margin: 0; background: #0b0b0b; color: #eaeaea; font-family: Inter, system-ui, Arial, sans-serif; }
+.app { display: grid; grid-template-columns: 1fr; grid-template-rows: auto 1fr; height: 100%; }
+.header { padding: 16px 20px; border-bottom: 1px solid #222; display:flex; justify-content:space-between; align-items:center;}
+.header h1 { font-size: 16px; margin: 0; letter-spacing: .4px; }
+.header a { color: #eaeaea; text-decoration: none; opacity:.8 }
+.header a:hover { opacity:1 }
+
+.canvas-wrap { position: relative; height: 100%; }
+.overlay { position: absolute; bottom: 16px; left: 16px; background: rgba(0,0,0,.5); padding: 10px 12px; border-radius: 10px; font-size: 14px; }
+.cta { display:inline-block; margin-top:8px; padding:8px 12px; border-radius: 10px; background:#d65728; color:#fff; text-decoration:none; }
+.cta:hover { filter: brightness(1.1); }
